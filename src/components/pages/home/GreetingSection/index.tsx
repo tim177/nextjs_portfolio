@@ -9,7 +9,7 @@ export default function GreetingSection() {
       <div className="container grid place-items-center gap-12 py-12 lg:grid-cols-2 lg:gap-20 lg:py-20">
         <div className="grid cursor-default gap-4">
           <span className="text-primary-200">Hi there!</span>
-          <h1 className="text-4xl font-bold md:text-6xl">I'm John Doe</h1>
+          <h1 className="text-4xl font-bold md:text-6xl">I&apos;m John Doe</h1>
           <p className="text-xl italic md:text-2xl">Software Developer</p>
           <p className="font-semibold">
             I specialize in creating high-quality web applications that solve

@@ -13,8 +13,8 @@ export default function ContactSection() {
         <div className="grid gap-4 font-semibold">
           <h2 className="text-3xl font-bold md:text-6xl">Get in Touch</h2>
           <p>
-            I'd love to hear from you! Whether you have a question, a project
-            idea, or just want to say hello, feel free to reach out.
+            I&apos;d love to hear from you! Whether you have a question, a
+            project idea, or just want to say hello, feel free to reach out.
           </p>
           <p>
             Contact me via email and let&apos;s discuss how we can work together
