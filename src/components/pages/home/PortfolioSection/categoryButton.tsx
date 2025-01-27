@@ -1,4 +1,5 @@
-import { JavascriptIcon, NextIcon, ReactIcon } from "@src/icons";
+// import { JavascriptIcon, NextIcon, ReactIcon } from "@src/icons";
+import { NextIcon } from "@src/icons";
 
 export const categoryButtons = [
   {
@@ -6,19 +7,19 @@ export const categoryButtons = [
     title: "Next JS",
     icon: NextIcon,
   },
-  {
-    id: "reactjs",
-    title: "React JS",
-    icon: ReactIcon,
-  },
-  {
-    id: "reactNative",
-    title: "React Native",
-    icon: ReactIcon,
-  },
-  {
-    id: "javascript",
-    title: "Javascript",
-    icon: JavascriptIcon,
-  },
+  //   {
+  //     id: "reactjs",
+  //     title: "React JS",
+  //     icon: ReactIcon,
+  //   },
+  //   {
+  //     id: "reactNative",
+  //     title: "React Native",
+  //     icon: ReactIcon,
+  //   },
+  //   {
+  //     id: "javascript",
+  //     title: "Javascript",
+  //     icon: JavascriptIcon,
+  //   },
 ] as const;

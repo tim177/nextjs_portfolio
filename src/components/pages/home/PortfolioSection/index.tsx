@@ -28,8 +28,9 @@ export default function PortfolioSection() {
                   "border-white text-white [&>svg]:fill-white"
               )}
             >
-              <categoryButton.icon className="h-6 w-6 fill-primary-100 transition group-hover:fill-white" />
-              <span>{categoryButton.title}</span>
+              {/* <categoryButton.icon className="h-6 w-6 fill-primary-100 transition group-hover:fill-white" /> */}
+              {/* <span>{categoryButton.title}</span> */}
+              <span>Projects</span>
             </button>
           ))}
         </div>

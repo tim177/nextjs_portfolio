@@ -13,32 +13,30 @@ export const projectItems = {
   nextjs: [
     {
       id: "microsoft-todo-clone",
-      title: "Microsoft To-Do Clone",
+      title: "Natours travel Application",
       description:
-        "This is the biggest project that I have in my portfolio. It took me so long even to get the project so far. I could not finish it due to work but I have done a lot. I owe a lot of new knowledge to this project. In this project I have used TypeScript, SCSS, Firebase Authentication, and MongoDB. I learnt MongoDB from scratch with this project.",
+        "Developed the Natours travel application using Node.js, Express.js, and MongoDB with JWT-secured authentication. Designed dynamic HTML pages with Pug and integrated RESTful APIs for seamless front-end and back-end communication. Built adaptable MongoDB queries using Mongoose to support advanced search capabilities. Enhanced the platform's security, functionality, and user experience.",
       websiteLink: "https://microsoft-todo-clone.vercel.app",
-      sourceLink: "https://github.com/serdargokhan/microsoft-todo-clone",
-      techStacks: ["NextJS", "MongoDB", "Firebase", "SCSS", "TypeScript"],
+      sourceLink: "https://github.com/tim177/natorus",
+      techStacks: ["NodeJS", "MongoDB", "ExpressJS", "Mongoose", "SCSS"],
     },
     {
       id: "add-your-website",
-      title: "Add Your Websites",
+      title: "Banking Management System",
       description:
-        "I have developed this project as a part of a tutorial from Youtube thanks to Lee Robinson for inspiration. I have used Chakra UI, useSWR, and Skeleton loading for the first time with this project. I also stored the user information on Firebase Firestore and login was implemented with Firebase authentication. It has Github login authentication.",
+        "Developed a banking management application using Java, leveraging Swing and AWT for an interactive front-end interface. Integrated a secure relational database backend with SQL to manage and process data efficiently, ensuring robust and seamless functionality.",
       websiteLink: "https://serdargokhan-list-your-websites.vercel.app",
-      sourceLink:
-        "https://github.com/serdargokhan/react-projects/tree/main/7-list-your-websites",
-      techStacks: ["NextJS", "ChakraUI", "Firebase", "useSWR", "TypeScript"],
+      sourceLink: "https://github.com/tim177/Bankist",
+      techStacks: ["Java", "Swing", "AWT", "SQL"],
     },
     {
       id: "shopify-clone",
-      title: "Shopify Clone",
+      title: "Pizza Shop Application",
       description:
-        "I have completed this project and I got inspired from Shopify website. It is kind of e-commerce website. There are sign in and sign up proccess. User can create a product, delete a product if they created it, and also add to cart. I used minimal workflow with this project and no extra framework.",
+        "Developed a pizza application using React with a responsive, visually appealing UI styled with Tailwind CSS. Implemented Redux for efficient state management, ensuring smooth data flow and enhanced user interaction.",
       websiteLink: "https://serdargokhan-e-commerce.netlify.app",
-      sourceLink:
-        "https://github.com/serdargokhan/react-projects/tree/main/6-e-commerce",
-      techStacks: ["NextJS", "TailwindCSS", "JavaScript"],
+      sourceLink: "https://github.com/tim177/react-project",
+      techStacks: ["React", "TailwindCSS", "Redux"],
     },
   ],
   reactjs: [

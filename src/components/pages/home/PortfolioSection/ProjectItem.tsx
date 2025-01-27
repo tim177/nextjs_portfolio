@@ -1,11 +1,12 @@
-import { ExternalLinkIcon, GithubIcon } from "@src/icons";
 import { NextLink } from "@src/components/common";
+// import { ExternalLinkIcon, GithubIcon } from "@src/icons";
+import { GithubIcon } from "@src/icons";
 import type { ProjectItem as ProjectItemProps } from "./projectItems";
 
 export default function ProjectItem({
   title,
   description,
-  websiteLink,
+  //   websiteLink,
   sourceLink,
   techStacks,
 }: Omit<ProjectItemProps, "id">) {
@@ -25,13 +26,13 @@ export default function ProjectItem({
       </ul>
 
       <div className="mt-auto flex justify-end gap-4">
-        <NextLink
+        {/* <NextLink
           href={websiteLink}
           className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
         >
           <span>Visit Website</span>
           <ExternalLinkIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
-        </NextLink>
+        </NextLink> */}
 
         <NextLink
           href={sourceLink}

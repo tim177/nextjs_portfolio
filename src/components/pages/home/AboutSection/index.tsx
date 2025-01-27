@@ -16,13 +16,18 @@ export default function AboutSection() {
             About Me
           </h2>
           <p>
-            Welcome to my website! I’m passionate about creating meaningful
-            digital experiences.
+            Hi there! I’m Amit Singh, a web developer with a passion for turning
+            ideas into amazing digital experiences. My journey started with the
+            basics of HTML, CSS, and JavaScript, and has grown into building
+            sleek, functional apps using ReactJS, NextJS, TailwindCSS, and
+            TypeScript.
           </p>
           <p>
-            With years of experience in design and development, I’ve worked on
-            projects ranging from small startups to large-scale enterprise
-            applications.
+            I’ve worked on projects big and small, and I’m always excited to
+            learn, create, and explore in the ever-evolving world of web
+            development. When I’m not coding, you’ll find me exploring tech
+            trends, watching Netflix, or chasing the perfect cup of coffee.
+            Let’s build something great together! 🚀
           </p>
           <p>
             My goal is to combine creativity with technical expertise to bring
