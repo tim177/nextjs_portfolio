@@ -1,16 +1,11 @@
-import "../globals.css";
+import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
 import Navbar from "@src/layouts/Navbar";
 import Footer from "@src/layouts/Footer";
-import siteConfig from "site.config";
 import { nunitoFont } from "@src/utils/fonts";
-
-export function generateStaticParams() {
-  return siteConfig.locales.map((locale) => ({ locale }));
-}
 
 type RootLayoutProps = {
   children: ReactNode;
@@ -36,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL(BASE_URL),
     title: {
-      default: "Default SEO Title",
+      default: "Amit Singh",
       template: "%s | Serdar Gökhan",
     },
     description: "Default SEO Description",
@@ -68,12 +63,7 @@ export async function generateMetadata(): Promise<Metadata> {
       },
     },
     alternates: {
-      languages: {
-        "x-default": BASE_URL,
-        en: `${BASE_URL}/en`,
-        tr: `${BASE_URL}/tr`,
-      },
-      canonical: BASE_URL,
+      canonical: BASE_URL, // Use `alternates.canonical` instead of `canonical`
     },
     verification: {
       google: "UJthXaWw4SK7do_wKDjzQXss3tPHWfF0dXCBjfQrZek",
