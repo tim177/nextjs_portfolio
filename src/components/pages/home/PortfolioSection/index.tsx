@@ -5,7 +5,7 @@ import { cn } from "@src/utils";
 import { Category, projectItems } from "./projectItems";
 import ProjectItem from "./ProjectItem";
 import { categoryButtons } from "./categoryButton";
-import { ExternalLinkIcon, GithubIcon } from "@src/icons";
+import { ExternalLinkIcon } from "@src/icons";
 import { NextLink } from "@src/components/common";
 
 export default function PortfolioSection() {
